@@ -1,5 +1,5 @@
 # GazeHeatMapSystem
-Graduation research project: 04
+Graduation research projects: 04
 
 this project uses hideyukisaito/ofxHeatMap
 
