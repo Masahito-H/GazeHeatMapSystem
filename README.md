@@ -1,6 +1,15 @@
 # GazeHeatMapSystem
 The projects for graduation research: 04
 
-this project uses hideyukisaito/ofxHeatMap
+This project generates heat map on the video of the Generative Art by csv files.
 
-under construction...
+input files(required): simulation data(csv format)&lowast;, gaze data(csv format)&lowast;&lowast;  
+output file: heat map video  
+&lowast;About simulation data, BoidGenerator or VehiclesGenerator will get it.  
+&lowast;&lowast;About gaze data, GazeTrackingWebApplication will get it.
+
+This application uses [ofxHeatMap](https://github.com/hideyukisaito/ofxHeatMap "hideyukisaito/ofxHeatMap")  
+Copyright (c) 2015 Hideyuki SAITO
+
+This repository has MIT license.  
+Copyright (c) 2019 Masahito H.
