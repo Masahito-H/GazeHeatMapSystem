@@ -40,8 +40,8 @@ void ofApp::setup(){
     agentFrame = 0;
     
     string dummy;
-    gazeData.open("/Users/ORz/Desktop/openFrameworks works/of_v0.10.0_osx_release/apps/myApps/GazeHeatMapSystem/bin/data/gazesample.csv"/*"[csvdata(subject's gaze) path]"*/, ios::in);   //set csvdata(subject's gaze)
-    generativeData.open("/Users/ORz/Desktop/openFrameworks works/of_v0.10.0_osx_release/apps/myApps/GazeHeatMapSystem/bin/data/generativesample.csv"/*"[csvdata(generative art video) path]"*/, ios::in); //set csvdata(generative art video)
+    gazeData.open("[csvdata(subject's gaze) path]", ios::in);   //set csvdata(subject's gaze)
+    generativeData.open("[csvdata(generative art video) path]", ios::in); //set csvdata(generative art video)
     getline(gazeData, dummy);
     getline(generativeData, dummy);
     
@@ -148,12 +148,11 @@ void ofApp::draw(){
         
         heatmap.draw(0, 0);
         fbo.draw(0, 0, ofGetWidth(), ofGetHeight());
-        /*
+        
         stringstream ss;
         img.grabScreen(0, 0, ofGetWidth(), ofGetHeight());
         ss << "[file name]" << agentFrame << ".png";    //set file name
         img.save(ss.str());
-         */
     }
     
     ofDrawBitmapString(ofToString(ofGetFrameRate()) + "fps", 20, 20);
