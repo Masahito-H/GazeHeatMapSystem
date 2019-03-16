@@ -8,7 +8,7 @@ output file: heat map video
 &lowast;About simulation data, BoidGenerator or VehiclesGenerator will get it.  
 &lowast;&lowast;About gaze data, GazeTrackingWebApplication will get it.
 
-This application uses [hideyukisaito/ofxHeatMap](https://github.com/hideyukisaito/ofxHeatMap)    
+This application uses [hideyukisaito/ofxHeatMap](https://github.com/hideyukisaito/ofxHeatMap)  
 Copyright (c) 2015 Hideyuki SAITO
 
 This repository has MIT license.  
